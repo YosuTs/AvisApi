@@ -352,6 +352,8 @@ class ComposerStaticInitf867ba2123cdf5b28f0a6a35ccac6b6a
     );
 
     public static $classMap = array (
+        'App\\AditionalServices' => __DIR__ . '/../..' . '/app/AditionalServices.php',
+        'App\\Administrator' => __DIR__ . '/../..' . '/app/Administrator.php',
         'App\\Car' => __DIR__ . '/../..' . '/app/Car.php',
         'App\\Category' => __DIR__ . '/../..' . '/app/Category.php',
         'App\\Console\\Kernel' => __DIR__ . '/../..' . '/app/Console/Kernel.php',
@@ -378,6 +380,7 @@ class ComposerStaticInitf867ba2123cdf5b28f0a6a35ccac6b6a
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
         'App\\Providers\\EventServiceProvider' => __DIR__ . '/../..' . '/app/Providers/EventServiceProvider.php',
         'App\\Providers\\RouteServiceProvider' => __DIR__ . '/../..' . '/app/Providers/RouteServiceProvider.php',
+        'App\\Reservation' => __DIR__ . '/../..' . '/app/Reservation.php',
         'App\\User' => __DIR__ . '/../..' . '/app/User.php',
         'ArithmeticError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/ArithmeticError.php',
         'AssertionError' => __DIR__ . '/..' . '/symfony/polyfill-php70/Resources/stubs/AssertionError.php',
