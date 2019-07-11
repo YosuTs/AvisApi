@@ -12,7 +12,7 @@ class Category extends Model
     }
 
     protected $fillable = [
-      'name', 'capacity', 'cost'
+      'name', 'capacity', 'cost', 'is_available'
     ];
 
 }

@@ -15,4 +15,8 @@ class Location extends Model
   {
     return $this->belongsToMany('\App\Category');
   }
+  public function aditional_services()
+  {
+    return $this->belongsToMany('\App\AditionalServices');
+  }
 }
