@@ -14,7 +14,8 @@ class CreateReservationsServicesTable extends Migration
     public function up()
     {
         Schema::create('reservations_services', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integer('id_reservation');
+            $table->integer('id_locaton');
             $table->timestamps();
         });
     }

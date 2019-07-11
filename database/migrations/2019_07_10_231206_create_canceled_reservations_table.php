@@ -15,6 +15,9 @@ class CreateCanceledReservationsTable extends Migration
     {
         Schema::create('canceled_reservations', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('id_reservation');
+            $table->dateTime('canceled_date');
+            $table->string('refound_percentage');
             $table->timestamps();
         });
     }

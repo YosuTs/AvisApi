@@ -14,7 +14,8 @@ class CreateServicesLocationsTable extends Migration
     public function up()
     {
         Schema::create('services_locations', function (Blueprint $table) {
-            $table->increments('id');
+            $table->integer('id_service');
+            $table->integer('id_location');
             $table->timestamps();
         });
     }
